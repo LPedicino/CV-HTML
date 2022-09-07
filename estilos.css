@@ -220,9 +220,6 @@ button:hover{
 font-size: 22px;
 
 }
-a, a:visited, a:active {
+a:link, a:visited, a:active {
   color: inherit;
-}
-a:link:hover {
-  color: blue
 }
