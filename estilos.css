@@ -21,7 +21,7 @@ body{
 }
 
 header{
-  background: #252934;
+  background: #2a2e3b;
   color: white;
   width: 48vw;
   position: fixed;
@@ -219,4 +219,10 @@ button:hover{
 #Contact {
 font-size: 22px;
 
+}
+a, a:visited, a:active {
+  color: inherit;
+}
+a:link:hover {
+  color: blue
 }

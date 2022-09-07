@@ -10,8 +10,8 @@ header img{
   position: static;
   mix-blend-mode: normal;
   opacity: 1;
-  width: 30vw;
-  height: 25vh;
+  width: 50vw;
+  height: 50vh;
   object-fit: cover;
   object-position: top center;
   border-radius: 10%;
@@ -67,8 +67,8 @@ nav:target{
   height: 32px;
   background: none center center/contain no-repeat;
   font-size: 0;
-  filter:invert(1)
-}
+  }
+
 #abrir{
   display: block;
   background-image:url(abrir.png);
@@ -76,6 +76,7 @@ nav:target{
 #cerrar{
   display:none;
   background-image:url(cerrar.png);
+  filter: invert(1);
 }
 
 #menu:target #abrir{
