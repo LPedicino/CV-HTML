@@ -35,24 +35,26 @@ header{
   justify-content: center;
   text-align: center;
   transform: scale(1);
+  
 }
 
 header img{
   position: absolute;
   width: auto;
-  height: 90vh;
+  height: 60vh;
   bottom: 0;
   mix-blend-mode:color-dodge ;
-  opacity: .33;
-  margin-bottom: 4rem;
-  border-radius: 100px;
+  opacity: .83;
+  margin-bottom: 13rem;
+  border-radius: 70px;
 }
 
 header p{
   margin-top: 30em;
   z-index: 1;
   font-size: 20px;
-}
+  font-weight: bold;
+  }
 
 h1{
   font-family: 'Changa One', cursive;
