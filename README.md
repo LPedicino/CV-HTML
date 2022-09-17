@@ -5,7 +5,7 @@
 const CV = {
 name: "Leandro",
 lastname: "Pedicino",
-D.O.B.: 07-05-1987 
+D.O.B.: 07-05-1987,
 moreinfo: "Read my CV"
 }
 ```
