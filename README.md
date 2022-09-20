@@ -1,13 +1,31 @@
-# Hi and welcome
-## This is my CV made with HTML & CSS
+<h1 align="center"> Hi and Welcome </h1>
+
+<br>
+
+<h2 align="center"> This is my Web Resume </h2>
+
+<br>
+
+<br>
 
 ```
-const CV = {
+const Resume = {
 name: "Leandro",
 lastname: "Pedicino",
-D.O.B.: 07-05-1987,
-moreinfo: "Read my CV"
+age: 35,
+lookingforjob: true
+moreinfo: "Read my resume"
 }
 ```
 
-### :point_right: Purely made with HTML & CSS
+<span align="center">
+
+#### :point_right: Purely made with HTML & CSS
+
+</span>
+
+<span align="center">
+
+#### :point_right: You can see it deployed at [Resume](https://lpedicino.github.io/CV-HTML/)
+
+</span>
