@@ -186,3 +186,13 @@ a:link, a:visited, a:active {
 #Contact a:link:hover {
   text-decoration: underline;
 }
+
+#home a {
+  color: blue;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#home a:hover {
+  opacity: .7;
+}
