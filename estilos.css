@@ -203,11 +203,15 @@ article div {
   font-size: 20px;
 }
 
+#Contact h2 {
+  font-size: 30px;
+}
+
 .fa {
   display: flex;
   flex-direction: row;
   padding: 10px 2px;
-  font-size: 30px;
+  font-size: 27px;
   width: 50px;
   text-align: center;
   text-decoration: none;
