@@ -153,8 +153,9 @@ transition: 0.5s;
   }
   
   #button1:hover {
-    transition: .6s;
+    transition: .5s;
     box-shadow: 0 0 10px black;
+    transform: scale(1.03);
   }
   
   
@@ -174,27 +175,39 @@ transition: 0.5s;
   #button2:hover{
     transition: .6s;
     box-shadow: 0 0 15px black;
+    transform: scale(1.03);
   }
   
    #Skills{
-    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    /* list-style: circle; */
     margin: 40px 100px;
     padding: 0;
   }
   
-  #Skills li{
+  #Skills a{
     font-size: 1.5em;
     width: 300px;
     height: 55px;
-    background-color: #dedede;
-    border: 1px solid #AAA;
+    background-color: black;
     padding: .5em 1em;
     margin-bottom: 3px;
     position: relative;
     text-align: center;
-    filter: invert(1);
+    text-decoration: none;
   }
-  
+  #Skills a{
+    color: white; 
+  }
+
+  #Skills a:hover{
+    color: rgb(132, 177, 255);
+    transform: scale(1.06);
+    box-shadow: 0 0 5px black;
+  }
+
+
   #abrir,
   #cerrar{
     display: none;
