@@ -19,7 +19,7 @@
   
   header{
     background: rgb(2,0,36);
-background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
+    background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
     color: white;
     width: 48vw;
     position: fixed;
@@ -32,8 +32,7 @@ background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6
     align-items: center;
     justify-content: center;
     text-align: center;
-    transform: scale(1);
-    
+    transform: scale(1); 
   }
   
   header img{
@@ -111,8 +110,8 @@ background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6
     color: white;
     transform: translateY(0);
     background: rgb(2,0,36);
-background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
-transition: 0.5s;
+    background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
+    transition: 0.5s;
   }
   section{
     min-height: 100vh;
@@ -181,30 +180,31 @@ transition: 0.5s;
    #Skills{
     display: flex;
     flex-direction: column;
-    /* list-style: circle; */
-    margin: 40px 100px;
-    padding: 0;
+    margin: 40px 30px;
+    padding: auto;
   }
   
   #Skills a{
     font-size: 1.5em;
-    width: 300px;
+    width: 320px;
     height: 55px;
     background-color: black;
     padding: .5em 1em;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     position: relative;
     text-align: center;
     text-decoration: none;
+    border-radius: 10px;
   }
   #Skills a{
     color: white; 
   }
 
   #Skills a:hover{
-    color: rgb(132, 177, 255);
+    color: rgb(127, 223, 255);
     transform: scale(1.06);
     box-shadow: 0 0 5px black;
+    transition: 0.3s;
   }
 
 
