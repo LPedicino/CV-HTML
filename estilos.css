@@ -22,7 +22,8 @@ font-family: 'Poppins', sans-serif;
   }
   
   header{
-    background: #2a2e3b;
+    background: rgb(2,0,36);
+background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
     color: white;
     width: 48vw;
     position: fixed;
@@ -44,8 +45,6 @@ font-family: 'Poppins', sans-serif;
     width: auto;
     height: 60vh;
     bottom: 0;
-    mix-blend-mode:color-dodge ;
-    opacity: .83;
     margin-bottom: 13rem;
     border-radius: 70px;
   }
@@ -113,7 +112,11 @@ font-family: 'Poppins', sans-serif;
   }
   
   nav ul li:hover a{
+    color: white;
     transform: translateY(0);
+    background: rgb(2,0,36);
+background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
+transition: 0.5s;
   }
   section{
     min-height: 100vh;
@@ -123,8 +126,8 @@ font-family: 'Poppins', sans-serif;
   
   section:nth-child(2){
     color: white;
-    background: black;
-  }
+    background: rgb(2,0,36);
+    background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);}
   
   
   

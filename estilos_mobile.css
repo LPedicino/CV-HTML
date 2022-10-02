@@ -72,6 +72,7 @@ nav:target{
 #abrir{
   display: block;
   background-image:url(abrir.png);
+  filter: invert(1);
 }
 #cerrar{
   display:none;
