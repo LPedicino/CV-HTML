@@ -4,17 +4,20 @@ header{
   transform: none;
 }
 
-
-
 header img{
   position: static;
   mix-blend-mode: normal;
   opacity: 1;
-  width: 50vw;
+  width: 75vw;
   height: 50vh;
   object-fit: cover;
   object-position: top center;
   border-radius: 10%;
+  margin: 3em 0;
+}
+
+header p{ 
+  margin-top: 0;
 }
 
 nav ul{
@@ -85,4 +88,30 @@ nav:target{
 } 
 #menu:target #cerrar{
   display: block;
+}
+
+#button1 {
+  font-size: 0.9em;
+  width: 100%;
+  display: block;
+  padding: 0.3em;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  background: rgb(2,0,36);
+  background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
+  color: white;
+}
+
+#button2{
+  width: 100%;
+  margin-top: 80px;
+  display: block;
+  padding: 16px 0;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  background: rgb(2,0,36);
+  background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
+  color: white;
 }

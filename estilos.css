@@ -45,6 +45,7 @@
   }
   
   header p{
+    font-family: 'Montserrat', sans-serif;
     margin-top: 30em;
     z-index: 1;
     font-size: 20px;
@@ -52,7 +53,7 @@
     }
   
   h1{
-    font-family: 'Changa One', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     margin: 0;
     z-index: 1;
@@ -62,7 +63,7 @@
   
   h2,
   h3{
-    font-family: cursive;
+    font-family: 'Monserrat', sans-serif;
     font-weight: normal;
     margin: 0 0 10px;
     font-size: 30px;
