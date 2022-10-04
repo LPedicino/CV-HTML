@@ -74,12 +74,12 @@ nav:target{
 
 #abrir{
   display: block;
-  background-image:url(abrir.png);
+  background-image:url(./assets/abrir.png);
   filter: invert(1);
 }
 #cerrar{
   display:none;
-  background-image:url(cerrar.png);
+  background-image:url(./assets/cerrar.png);
   filter: invert(1);
 }
 
