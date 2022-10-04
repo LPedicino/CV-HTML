@@ -146,6 +146,7 @@
     padding: 0.3em;
     text-align: center;
     border-radius: 20px;
+    margin: 30px 0 50px 0;
     text-decoration: none;
     background: rgb(2,0,36);
     background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
@@ -181,25 +182,31 @@
   }
   
    #Skills{
-    display: flex;
+    width: 100%;
+    display: grid;
     flex-direction: column;
-    margin: 40px 30px;
+    margin: 70px 0 0 20px;
     padding: auto;
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
   }
   
   #Skills a{
     font-size: 1.5em;
-    width: 230px;
-    height: 55px;
+    width: 60%;
+    height: 80%;
     color: white; 
     background-color: black;
     padding: .5em 1em;
-    margin-bottom: 4px;
+    margin: 10px 0px 5px 0;
     position: relative;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
   }
+
+#Skills>* {
+    flex: 1 1 160px;
+}
   #Skills a:hover{
     transform: scale(1.06);
     box-shadow: 0 0 5px black;
