@@ -16,7 +16,7 @@ const Resume = {
 name: "Leandro",
 lastname: "Pedicino",
 age: 35,
-lookingforjob: true
+lookingforjob: true,
 moreinfo: "Read my resume"
 }
 ```
