@@ -1,10 +1,10 @@
 <h1 align="center"> Hi and Welcome </h1>
 
-<h2 align="center"> This is my Web Resume </h2>
+<h2 align="center"> This is my Portfolio </h2>
 
 
 ```
-const Resume = {
+const Portfolio = {
 name: "Leandro",
 lastname: "Pedicino",
 age: 35,
@@ -21,6 +21,6 @@ moreinfo: "Read my resume"
 
 <span align="center">
 
-#### :point_right: You can see it deployed at [Resume](https://lpedicino.github.io/CV-HTML-ES/)
+#### :point_right: You can see it deployed at [Portfolio](https://lpedicino.github.io/CV-HTML-ES/)
 
 </span>
