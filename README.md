@@ -3,14 +3,6 @@
 <h2 align="center"> This is my Web Resume </h2>
 
 
-<span align="center">
-
-### :point_right: Spanish version
-
-</span>
-
-<br>
-
 ```
 const Resume = {
 name: "Leandro",
