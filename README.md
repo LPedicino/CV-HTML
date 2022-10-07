@@ -9,7 +9,7 @@ name: "Leandro",
 lastname: "Pedicino",
 age: 35,
 lookingforjob: true,
-moreinfo: "Read my resume"
+moreinfo: "check my Portfolio"
 }
 ```
 
