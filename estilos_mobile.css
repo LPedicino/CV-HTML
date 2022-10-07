@@ -20,6 +20,10 @@ header p{
   margin-top: 0;
 }
 
+#Projects h2 {
+  width: 100%;
+}
+
 nav ul{
   background:white;
   width: 90vw;
