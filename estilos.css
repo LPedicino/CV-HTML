@@ -159,8 +159,7 @@
   }
 
   #button2 {
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 0.9em;
     width: 50%;
     display: block;
     padding: 0.3em;
@@ -302,6 +301,10 @@ color: yellow;
 
 #Projects h2{
   margin-bottom: 50px;
+}
+
+#Projects i {
+  font-weight: bold;
 }
 #Projects p {
   font-weight: bold;
