@@ -140,19 +140,18 @@
   
   #button1 {
     font-size: 0.9em;
-    width: 20em;
+    height: 50px;
+    width: 50px;
     display: block;
-    padding: 0.3em;
-    text-align: center;
     border-radius: 20px;
-    margin: 30px 0 50px 0;
-    text-decoration: none;
-    background: rgb(2,0,36);
-    background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 46%, rgba(6,64,198,1) 100%);
-    color: white;
+    margin: 0 0 50px 8rem;
   }
   
-  #button1:hover {
+  #button1 img {
+    width: 50px;
+    border-radius: 30px;
+  }
+  #button1 img:hover {
     transition: .5s;
     box-shadow: 0 0 10px black;
     transform: scale(1.03);
