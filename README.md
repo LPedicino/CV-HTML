@@ -21,6 +21,6 @@ moreinfo: "check my Portfolio"
 
 <span align="center">
 
-#### :point_right: You can see it deployed at [Portfolio](https://lpedicino.github.io/CV-HTML-ES/)
+#### :point_right: You can see it deployed at [Portfolio](https://lpedicino.github.io/My-Portfolio/)
 
 </span>
