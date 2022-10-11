@@ -285,30 +285,41 @@
 
   .devicon-javascript-plain:hover {
 color: yellow;
+transition: 0.3s;
   }
   .devicon-html5-plain:hover {
     color: red;
+    transition: 0.3s;
   }
   .devicon-css3-plain:hover {
     color: rgb(45, 45, 255);
+    transition: 0.3s;
   }
 .devicon-react-original:hover{
   color: rgb(127, 223, 255);
+  transition: 0.3s;
 }
 .devicon-mysql-plain:hover {
   color: orange;
+  transition: 0.3s;
 }
 .devicon-mongodb-plain:hover {
   color: greenyellow;
+  transition: 0.3s;
 }
 .devicon-figma-plain:hover {
-  color: orangered
+  color: orangered;
+  transition: 0.3s;
 }
 .devicon-git-plain:hover{
   color: rgb(213, 56, 56);
+    transition: 0.3s;
+
 }
 .devicon-fastapi-plain:hover{
   color: aqua;
+    transition: 0.3s;
+
 }
 
 #Projects h2{
