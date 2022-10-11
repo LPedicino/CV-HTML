@@ -370,11 +370,16 @@ transition: 0.3s;
 }
 
 #stepform img{
-  width: 200px;
-  height: 320px;
+  width: 240px;
+  height: 360px;
 }
 
 #crypto img {
   width: 200px;
   height: 320px; 
+}
+
+#todo img {
+  width: 310px;
+  height: 360px; 
 }
