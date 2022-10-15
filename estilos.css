@@ -364,15 +364,11 @@ transition: 0.3s;
   height: 320px; 
 }
 
-#memotest img, #portfolio img, #calculator img {
+#memotest img, #portfolio img, #recipe img {
   width: 320px;
   height: 180px;
 }
 
-#stepform img{
-  width: 240px;
-  height: 360px;
-}
 
 #crypto img {
   width: 200px;
@@ -380,6 +376,6 @@ transition: 0.3s;
 }
 
 #todo img {
-  width: 310px;
-  height: 360px; 
+  width: 300px;
+  height: 380px; 
 }
